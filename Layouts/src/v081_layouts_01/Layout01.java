@@ -1,8 +1,9 @@
 package v081_layouts_01;
 
 import java.awt.FlowLayout;
-import java.awt.event.*;
 import javax.swing.*;
+
+
 
 public class Layout01 {
 
@@ -36,6 +37,7 @@ class MarcoLayout extends JFrame{
 		add(lalamina);
 		
 	}
+	private static final long serialVersionUID = 1L;
 }
 
 class PanelLayout extends JPanel{
@@ -45,6 +47,7 @@ class PanelLayout extends JPanel{
 		 add(new JButton("Rojo"));
 		 add(new JButton("Azul"));
 	 }
+	 private static final long serialVersionUID = 1L;
 }
 
 		 
